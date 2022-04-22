@@ -9,11 +9,13 @@ pipeline {
       steps {
         echo "Building APP"
       }
+    }
     stage("build") {
     
       steps {
         echo "Testing APP"
       }
+    }
     stage("build") {
     
       steps {
@@ -21,5 +23,4 @@ pipeline {
       }
     }
   }
-}
 }
