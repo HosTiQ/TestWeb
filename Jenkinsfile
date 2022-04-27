@@ -10,13 +10,13 @@ pipeline {
         echo 'Building APP'
       }
     }
-    stage("build") {
+    stage("test") {
     
       steps {
         echo 'Testing APP'
       }
     }
-    stage("build") {
+    stage("deploy") {
     
       steps {
         echo 'Deploying APP'
